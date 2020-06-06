@@ -43,12 +43,11 @@ fieldset {
 }
 
 legend {
-    margin-bottom: 40p;
+    margin-bottom: 40px;
 }
 
 legend h2 {
     font-size: 24px;
-    margin-bottom: 15px;
 }
 
 .field {
@@ -84,7 +83,7 @@ label {
 }
 
 .field-group .field+.field {
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 button {
@@ -97,10 +96,48 @@ button {
     border: 0;
     margin-top: 40px;
     transition: background-color 400ms;
-    font-family: 'Lobster', cursive;
-    ;
+    font-family: 'Courgette', cursive;
 }
 
 button:hover {
     background-color: #1a643b;
+}
+
+.items-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+li {
+    background-color: #f0f0f5;
+    list-style: none;
+    border: 2px solid #f0f0f5;
+    height: 180px;
+    border-radius: 8px;
+    padding: 32px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+}
+
+li span {
+    margin-top: 12px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--title-color);
+}
+
+li.selected {
+    background-color: #e1faec;
+    border: 2px solid #34cb79;
+}
+
+li img,
+li span {
+    pointer-events: none;
 }

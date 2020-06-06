@@ -6,6 +6,9 @@
         align-items: center;
         text-align: center;
     }
+    header img {
+        margin: 0 auto;
+    }
     header a {
         position: absolute;
         bottom: 48px;
@@ -14,6 +17,24 @@
     }
     main {
         align-items: center;
+    }
+    #modal .content {
+        width: 100%;
+    }
+    #modal .header h1 {
+        margin-right: 35px;
+    }
+    #page-search-results main {
+        margin-top: 80px;
+    }
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+    #page-search-results header a {
+        top: 15%;
+    }
+    #page-create-point header a {
+        top: 15%;
     }
 }
 
