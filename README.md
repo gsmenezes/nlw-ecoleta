@@ -1,5 +1,5 @@
 <h1 align="center">
-Next Level Week - Starter
+Next Level Week - Starter </br>
 <img src="public/assets/rocketseat.svg">
 </h1>
 
