@@ -44,10 +44,19 @@ fieldset {
 
 legend {
     margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 legend h2 {
     font-size: 24px;
+}
+
+legend span {
+    color: var(--title-color);
+    font-size: 14px;
 }
 
 .field {
