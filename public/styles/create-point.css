@@ -12,12 +12,13 @@ header {
 }
 
 a {
-    color: var(--title-color);
+    font-size: 18px;
+    color: var(--text-color);
     display: flex;
 }
 
 header a span {
-    background-image: url(../assets/arrow-left.svg);
+    background: url(../assets/angle-double-left-solid.svg) no-repeat;
     width: 20px;
     height: 24px;
     display: flex;
@@ -89,6 +90,7 @@ select {
 label {
     font-size: 14px;
     margin-bottom: 8px;
+    color: var(--text-color);
 }
 
 .field-group .field+.field {
@@ -109,7 +111,7 @@ button {
 }
 
 button:hover {
-    background-color: #1a643b;
+    background-color: #8B7D7B;
 }
 
 .items-grid {
@@ -138,12 +140,12 @@ li span {
     flex: 1;
     display: flex;
     align-items: center;
-    color: var(--title-color);
+    color: var(--text-color);
 }
 
 li.selected {
-    background-color: #e1faec;
-    border: 2px solid #34cb79;
+    background-color: #EED5D2;
+    border: 2px solid #8B7D7B;
 }
 
 li img,

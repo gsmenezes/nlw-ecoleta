@@ -1,6 +1,6 @@
 #page-home {
-    background: url('../assets/home-background.svg') no-repeat;
-    height: 100vh;
+    background: url("/assets/home-background.svg") no-repeat;
+    height: 120vh;
     background-position: 35vw bottom;
 }
 
@@ -22,12 +22,13 @@ header {
 
 a {
     display: flex;
-    color: var(--title-color)
+    font-size: 18px;
+    color: var(--text-color)
 }
 
 header a span {
     margin-right: 10px;
-    background-image: url(../assets/log-in.svg);
+    background: url(../assets/angle-double-right-solid.svg) no-repeat;
     width: 20px;
     height: 20px;
     display: flex;
@@ -49,6 +50,7 @@ p {
     font-size: 24px;
     line-height: 38px;
     margin-top: 24px;
+    color: var(--text-color);
 }
 
 main a {
@@ -64,13 +66,14 @@ main a {
 }
 
 main a:hover {
-    background-color: #1a643b;
+    background-color: #8B7D7B;
 }
 
 main a strong {
     color: whitesmoke;
     flex: 1;
     font-weight: 300;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -87,7 +90,7 @@ main a span {
 
 main a span::after {
     content: "";
-    background-image: url(../assets/search.svg);
+    background-image: url(/assets/search-location-solid.svg);
     width: 20px;
     height: 20px;
 }

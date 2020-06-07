@@ -12,12 +12,13 @@ header {
 }
 
 a {
-    color: var(--title-color);
+    font-size: 18px;
+    color: var(--text-color);
     display: flex;
 }
 
 header a span {
-    background-image: url(../assets/arrow-left.svg);
+    background: url(../assets/angle-double-left-solid.svg) no-repeat;
     width: 20px;
     height: 24px;
     display: flex;
@@ -31,6 +32,7 @@ main {
 main h4 {
     font-weight: normal;
     margin-bottom: 32px;
+    font-size: 18px;
 }
 
 .cards {
@@ -61,7 +63,7 @@ main h4 {
 .card p {
     font-size: 16px;
     line-height: 26px;
-    color: gray;
+    color: var(--text-color);
 }
 
 body::after {

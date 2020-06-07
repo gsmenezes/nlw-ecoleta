@@ -26,7 +26,7 @@
 }
 
 #modal .header a {
-    background-image: url("/assets/x.svg");
+    background: url("/assets/times-solid.svg") no-repeat;
     width: 20px;
     height: 20px;
     display: flex;
@@ -70,7 +70,7 @@
 }
 
 #modal form button:hover {
-    background-color: #1a643b;
+    background-color: #8B7D7B;
 }
 
 #modal form button img {
