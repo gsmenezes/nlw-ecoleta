@@ -18,7 +18,7 @@ server.get("/", (req, res) => {
 })
 
 server.get("/create-point", (req, res) => {
-    return res.render("create-point.html", { saved: true })
+    return res.render("create-point.html")
 })
 
 server.post("/save-point", (req, res) => {
